@@ -4,7 +4,7 @@ import { UserContext } from "../context/UserProvider"
 export const MainContainer = ()=>{
   const [name, setName] =  useContext(UserContext)
 const handlerClick= ()=>{
-  setName('Fabian')
+  setName('Programadores')
 }
 
   return(
